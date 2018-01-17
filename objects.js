@@ -1,6 +1,6 @@
 var playlist = {Slowdive: "Alison",
                 "My Bloody Valentine": "Sometimes",
-}; test
+}; 
 
 function updatePlaylist (obj, artistName, song){
   obj[artistName] = song;
@@ -14,4 +14,4 @@ function removeFromPlaylist(obj, artistName){
   return obj;
 }
 
-removeFromPlaylist(playlist, Alison);
+removeFromPlaylist(playlist, Slowdive);
