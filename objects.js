@@ -1,6 +1,6 @@
 var playlist = {Alison: "Slowdive",
                 "My Bloody Valentine": "Sometimes",
-};
+}; test
 
 function updatePlaylist (obj, artistName, song){
   obj[artistName] = song;
