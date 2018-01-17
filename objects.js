@@ -1,4 +1,4 @@
-var playlist = {Slowdive: "Alison",
+var playlist = {Alison: Slowdive,
                 "My Bloody Valentine": "Sometimes",
 };
 
@@ -14,4 +14,4 @@ function removeFromPlaylist(obj, artistName){
   return obj;
 }
 
-removeFromPlaylist(playlist, Slowdive);
+removeFromPlaylist(playlist, Alison);
